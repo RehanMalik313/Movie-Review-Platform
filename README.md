@@ -1,10 +1,10 @@
 # Movie Review Platform
 
-# Overview
+## Overview
 
 This is a scalable, secure, and feature-rich Movie Review Platform built using Node.js, Express, MongoDB, and Redis. The application supports user authentication, movie reviews, and caching for optimized performance.
 
-# Features
+## Features
 
 1. User Authentication & Authorization
 JWT-based authentication
@@ -26,7 +26,7 @@ Redis caching for reducing API calls
 Clustering to utilize multiple CPU cores
 Background processing using Bull queue for email OTPs
 
-# Tech Stack
+## Tech Stack
 
 Backend: Node.js, Express.js
 Database: MongoDB (Mongoose ORM)
@@ -37,7 +37,7 @@ Job Queue: Bull
 Rate Limiting: express-rate-limit
 Cluster Management: Node.js Cluster API
 
-# Installation
+## Installation
 1, Clone the repository:
 ```
 git clone https://github.com/RehanMalik313/movie-review-platform.git
@@ -67,16 +67,16 @@ npm start
 ```
 # API Endpoints
 
-# Authentication
+## Authentication
 POST /signup - Register a new user
 POST /verify-otp - Verify OTP
 POST /login - User login
 GET /auth/google - Google SSO
 
-# Movies
+## Movies
 GET /movies/:name - Fetch movie details with caching
 
-# Reviews
+## Reviews
 POST /reviews - Add a movie review
 GET /reviews/:movieId - Fetch reviews for a movie
 PUT /reviews/:reviewId - Update a review
